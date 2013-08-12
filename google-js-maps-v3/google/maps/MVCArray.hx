@@ -8,7 +8,9 @@ Based on original Google JS API documentation
 package google.maps;
 import js.Dom;
 
-extern class MVCArray<Dynamic> extends MVCObject, implements ArrayAccess<Dynamic>{
+extern class MVCArray<Dynamic> extends MVCObject
+#if !haxe3,#end 
+implements ArrayAccess<Dynamic>{
 
 /*
 A mutable MVC Array.

@@ -11,6 +11,8 @@ import js.Dom;
 
 extern class StreetViewService {
 
+	public function new();
+
 /*
 Retrieves the data for the given pano id and passes it to the provided
 callback as a StreetViewPanoramaData object.  Pano ids are

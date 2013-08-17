@@ -8,11 +8,9 @@ Based on original Google JS API documentation
 package google.maps;
 import js.Dom;
 
+@:native('google.maps.event')
 extern class Event {
 	
-private static function __init__() : Void untyped {
-	__js__('if (google.maps.event) { google.maps.Event = google.maps.event; }');
-}
 /*
 Removes the given listener, which should have been returned by
 eventAddListener above.

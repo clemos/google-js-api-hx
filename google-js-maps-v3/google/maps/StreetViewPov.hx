@@ -10,7 +10,7 @@ heading, pitch and zoom.
 package google.maps;
 import js.Dom;
 
-extern class StreetViewPov {
+extern typedef StreetViewPov = {
 
 /*
 The camera pitch in degrees, relative to the street view vehicle.

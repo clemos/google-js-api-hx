@@ -136,5 +136,16 @@ only be set when the map is initialized.
 @:optional
 public var backgroundColor : String;
 
+@:optional
+public var minZoom : Int;
+
+@:optional
+public var maxZoom : Int;
+
+@:optional
+public var zoomControlOptions : ZoomControlOptions;
+
+@:optional
+public var zoomControl : Bool;
 
 }

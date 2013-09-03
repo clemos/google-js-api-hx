@@ -71,5 +71,7 @@ middle.  Elements are positioned to the left of the copyrights.
 */
 public static var BOTTOM_RIGHT : Dynamic;
 
+public static var RIGHT_BOTTOM : Dynamic;
+
 
 }

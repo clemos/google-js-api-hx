@@ -79,4 +79,7 @@ public var navigationControlOptions : NavigationControlOptions;
 @:optional
 public var visible : Bool;
 
+@:optional
+public var disableDefaultUI : Bool;
+
 }

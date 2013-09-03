@@ -28,5 +28,7 @@ A GeocoderGeometry object
 */
 public var geometry : GeocoderGeometry;
 
+public var formatted_address : String;
+
 
 }

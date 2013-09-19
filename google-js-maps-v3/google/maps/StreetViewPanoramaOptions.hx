@@ -82,4 +82,13 @@ public var visible : Bool;
 @:optional
 public var disableDefaultUI : Bool;
 
+@:optional 
+public var clickToGo : Bool;
+
+@:optional 
+public var scrollwheel : Bool;
+
+@:optional 
+public var disableDoubleClickZoom : Bool;
+
 }

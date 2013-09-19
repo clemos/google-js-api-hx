@@ -170,4 +170,7 @@ public function getProjection() : Projection;
 public function getMapTypeId() : MapTypeId;
 
 
+public function getHeading() : Float;
+public function setHeading( heading : Float ) : Void;
+
 }
